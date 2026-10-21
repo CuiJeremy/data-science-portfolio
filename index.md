@@ -25,10 +25,6 @@ This site is built from one markdown file with GitHub Pages. Everything I show h
 
 **What I found.** Transit photometry accounts for 74% of all confirmed planets, and each detection method reports a different kind of world: the median orbital period is 8 days for transits, 304 days for radial velocity and 33,100 days for direct imaging. Size is even more method-bound — transits have a radius for 99.5% of their planets, radial velocity for 2.5%, and microlensing for none. The catalogue is a record of our instruments at least as much as a census of planets.
 
-**Status:** completed, October 2026 · [Code and full write-up](https://github.com/CuiJeremy/data-science-project)
+**Limitation.** Three things bound this analysis. First, only successfully measured planets appear, so planets that are small, faint or far from their star are largely missing — a survivorship bias. Second, the groups are very unequal: thousands of transit planets against a few dozen imaged ones, so the comparison is indicative rather than statistical. Third, transits and radial velocity overlap at short periods, which makes the method divide a tendency rather than a hard boundary.
 
-## What I am working on next
-
-- A second project with a predictive model rather than a descriptive one, so the portfolio shows both.
-- Replacing the default Pages theme with a layout I write myself.
-- Testing the site on a phone — a portfolio that only works on a laptop is not finished.
+**Status:** completed — data snapshot and analysis from October 2026 · [Code and full write-up](https://github.com/CuiJeremy/data-science-project)
